@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { Search, Bell, User, Play, X } from 'lucide-react'
 import { moments } from '../data/moments'
 import MomentCard from '../components/MomentCard'
-import AudioPlayer from '../components/AudioPlayer'
 import Logo from '../components/Logo'
 
 const Catalog = () => {
