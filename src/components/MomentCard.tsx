@@ -81,6 +81,7 @@ const MomentCard = ({ id, title, image, video }: MomentCardProps) => {
               className="w-full rounded-sm"
               controls
               autoPlay
+              preload="auto"
               src={video}
             >
               Seu navegador não suporta reprodução de vídeo.

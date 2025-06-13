@@ -74,6 +74,7 @@ const MomentDetail = () => {
               className="absolute top-0 left-0 w-full h-full object-contain"
               poster={moment.image}
               controls
+              preload="auto"
               playsInline
             >
               <source src={moment.video} type="video/mp4" />
