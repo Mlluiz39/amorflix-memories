@@ -20,7 +20,28 @@ const Login = () => {
 
     if (code === secretCode) {
       toast.success('Bem-vinda ao nosso mundo especial! ❤️')
-      navigate('/catalog')
+
+      // Adiciona o vídeo de introdução em tela cheia
+      const videoUrl = '/vidocaflix.mp4';
+      const videoPlayer = document.createElement('video');
+      videoPlayer.src = videoUrl;
+      videoPlayer.autoplay = true;
+      videoPlayer.muted = true; // Para evitar problemas de autoplay em alguns navegadores
+      videoPlayer.style.position = 'fixed';
+      videoPlayer.style.top = '0';
+      videoPlayer.style.left = '0';
+      videoPlayer.style.width = '100%';
+      videoPlayer.style.height = '100%';
+      videoPlayer.style.objectFit = 'cover'; // Preenche a tela mantendo a proporção
+      videoPlayer.style.zIndex = '9999'; // Garante que o vídeo fique na frente de outros elementos
+      document.body.appendChild(videoPlayer);
+
+      // Remove o vídeo após alguns segundos e redireciona
+      setTimeout(() => {
+        document.body.removeChild(videoPlayer);
+        navigate('/catalog'); // Redireciona após o vídeo
+      }, 5000); // 5 segundos
+
     } else {
       toast.error('Código incorreto. Tente novamente!')
       setCode('')

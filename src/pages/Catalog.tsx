@@ -60,7 +60,7 @@ const Catalog = () => {
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="relative hidden md:block">
+              <div className="relative md:block">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-netflix-lightGray w-4 h-4" />
                 <input
                   type="text"
@@ -78,7 +78,7 @@ const Catalog = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-[80vh] mt-16 md:mt-20">
+      <section className="relative h-[50vh] md:h-[80vh] mt-16 md:mt-20">
         <div className="absolute inset-0">
           <img
             src={featuredMoment.image}
@@ -124,7 +124,7 @@ const Catalog = () => {
       {/* Video Modal */}
       {isVideoModalOpen && (
         <div className="fixed inset-0 z-50 bg-netflix-black/90 flex items-center justify-center">
-          <div className="relative w-full max-w-4xl mx-4">
+          <div className="relative w-full max-w-full md:max-w-4xl mx-4">
             <button
               onClick={closeVideoModal}
               className="absolute -top-12 right-0 text-netflix-white hover:text-netflix-lightGray transition-colors"
