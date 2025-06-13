@@ -1,4 +1,4 @@
-import Bistro56 from '../assets/images/bistro-56.jpg';
+import Bistro56 from '../assets/images/bistro.jpg';
 import MauaPlaza from '../assets/images/maua-plaza.jpg';
 import NoiteEstrelas from '../assets/images/noite-estrelas.jpg';
 import MaisUmMes from '../assets/images/mais-um-mes.jpg';
@@ -23,8 +23,8 @@ export const moments: Moment[] = [
     id: 1,
     title: "Nosso Primeiro Encontro",
     date: "26 de Agosto, 2024",
-    image: "/src/assets/images/bistro-56.jpg",
-    video: Bistro56,
+    image: Bistro56,
+    video: "/bistro.mp4",
     description: "O dia em que tudo começou. Nossos olhares se cruzaram e o mundo parou.",
     category: "Primeiro",
     romanticComment: "Desde aquele momento, soube que você era especial ❤️",
