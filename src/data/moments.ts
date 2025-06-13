@@ -1,4 +1,10 @@
-
+import Bistro56 from '../assets/images/bistro-56.jpg';
+import MauaPlaza from '../assets/images/maua-plaza.jpg';
+import NoiteEstrelas from '../assets/images/noite-estrelas.jpg';
+import MaisUmMes from '../assets/images/mais-um-mes.jpg';
+import Natal from '../assets/images/natal.jpg';
+import Reveillon from '../assets/images/reveillon.jpg';
+import Aliancas from '../assets/images/aliancas.jpg';
 export interface Moment {
   id: number;
   title: string;
@@ -18,7 +24,7 @@ export const moments: Moment[] = [
     title: "Nosso Primeiro Encontro",
     date: "26 de Agosto, 2024",
     image: "/src/assets/images/bistro-56.jpg",
-    video: "/bistro.mp4",
+    video: Bistro56,
     description: "O dia em que tudo começou. Nossos olhares se cruzaram e o mundo parou.",
     category: "Primeiro",
     romanticComment: "Desde aquele momento, soube que você era especial ❤️",
@@ -28,7 +34,7 @@ export const moments: Moment[] = [
     id: 2,
     title: "Nosso primeiro passeio ao shopping",
     date: "04 de setembro, 2024",
-    image: "/src/assets/images/maua-plaza.jpg",
+    image: MauaPlaza,
     video: "/segundo.mp4",
     description: "Uma tarde divertida explorando lojas e experimentando roupas.",
     category: "passeio",
@@ -39,7 +45,7 @@ export const moments: Moment[] = [
     id: 3,
     title: "Noite das Estrelas",
     date: "26 de outubro, 2024",
-    image: "/src/assets/images/noite-estrelas.jpg",
+    image: NoiteEstrelas,
     video: "/noite-estrelas.mp4",
     description: "Jantar romântico em nosso canto preferido, com direito a música suave e vinho.",
     category: "Romântico",
@@ -50,7 +56,7 @@ export const moments: Moment[] = [
     id: 4,
     title: "Mais um mês de amor",
     date: "26 de Novembro, 2024",
-    image: "/src/assets/images/mais-um-mes.jpg",
+    image: MaisUmMes,
     video: "/mais-um-mes.mp4",
     description: "",
     category: "Surpresa",
@@ -61,7 +67,7 @@ export const moments: Moment[] = [
     id: 5,
     title: "Nosso 1º Natal Juntos",
     date: "25 de dezembro, 2024",
-    image: "/src/assets/images/natal.jpg",
+    image: Natal,
     video: "/natal.mp4",
     description: "Nosso primeiro Natal juntos, cheio de amor e alegria.",
     category: "Romântico",
@@ -72,7 +78,7 @@ export const moments: Moment[] = [
     id: 6,
     title: "Réveillon Inesquecível na praia",
     date: "31 de dezembro, 2024",
-    image: "/src/assets/images/reveillon.jpg",
+    image: Reveillon,
     video: "/reveillon.mp4",
     description: "Uma noite mágica na praia, celebrando o novo ano juntos.",
     category: "Romântico",
@@ -83,7 +89,7 @@ export const moments: Moment[] = [
     id: 7,
     title: "Nossas aliaças de amor",
     date: "26 de maio, 2025",
-    image: "/src/assets/images/aliancas.jpg",
+    image: Aliancas,
     video: "/aliancas.mp4",
     description: "Comemorando nosso amor com alianças que simbolizam nossa união.",
     category: "Romântico",
