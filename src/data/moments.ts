@@ -33,50 +33,61 @@ export const moments: Moment[] = [
     description: "Uma tarde divertida explorando lojas e experimentando roupas.",
     category: "passeio",
     romanticComment: "Cada risada sua é uma lembrança que guardo com carinho 💖",
-    details: "Nosso primeiro passeio ao shopping foi uma explosão de diversão e inspiração. Explorei diversas lojas, experimentei roupas únicas e nos divertimos juntos. Foi uma jornada inesquecível."
+    details: "Nosso primeiro passeio ao shopping foi uma explosão de diversão e inspiração. Exploramos diversas lojas, experimentemos roupas únicas e nos divertimos juntos. Foi uma jornada inesquecível."
   },
   {
     id: 3,
     title: "Noite das Estrelas",
-    date: "22 de setembro, 2024",
+    date: "26 de outubro, 2024",
     image: "/src/assets/images/noite-estrelas.jpg",
-    video: "/src/videos/video-especial.mp4",
+    video: "/noite-estrelas.mp4",
     description: "Jantar romântico em nosso canto preferido, com direito a música suave e vinho.",
     category: "Romântico",
-    romanticComment: "A noite mais linda sob o céu estrelado 🌌",
-    details: "Foi uma noite perfeita. aproveitamos cada momento juntos. O jantar foi preparado com todo carinho, e a música suave nos envolveu em uma atmosfera mágica. Conversamos sobre nossos sonhos e planos, e cada palavra parecia mais doce que a anterior."
+    romanticComment: "Preparei sua comida favorita e transformei nossa sala em um restaurante.",
+    details: "Foi uma noite perfeita. A luz suave das velas, o cheiro do seu prato favorito e a música que escolhi especialmente para você. Sentamos juntos, brindamos ao nosso amor e conversamos sobre nossos sonhos. Foi uma noite mágica que nunca vou esquecer."
   },
   {
     id: 4,
-    title: "Jantar Surpresa",
-    date: "18 de Maio, 2023",
-    image: "/src/assets/images/jantar-surpresa.jpg",
-    video: "/src/videos/video-especial.mp4",
-    description: "Preparei sua comida favorita e transformei nossa sala em um restaurante.",
+    title: "Mais um mês de amor",
+    date: "26 de Novembro, 2024",
+    image: "/src/assets/images/mais-um-mes.jpg",
+    video: "/mais-um-mes.mp4",
+    description: "",
     category: "Surpresa",
-    romanticComment: "Seus sorrisos são meus pratos favoritos 💕",
-    details: "Passei o dia todo preparando tudo nos mínimos detalhes: velas, flores, sua música favorita e o prato que você mais ama. Ver sua cara de surpresa valeu cada segundo de preparo."
+    romanticComment: "Saimos para jantar, para comemorar mais um mês juntos.",
+    details: "Hoje celebramos mais um mês de amor. Preparei uma surpresa especial para você: um jantar romântico no nosso restaurante favorito. Foi uma noite cheia de risadas, lembranças e promessas de um futuro juntos. Cada mês é uma nova página na nossa história, e mal posso esperar para escrever os próximos capítulos ao seu lado."
   },
   {
     id: 5,
-    title: "Caminhada na Floresta",
-    date: "10 de Junho, 2023",
-    image: "/src/assets/images/caminhada-floresta.jpg",
-    video: "/src/videos/video-especial.mp4",
-    description: "Explorando trilhas secretas e descobrindo cachoeiras escondidas.",
-    category: "Aventura",
-    romanticComment: "Com você, até as trilhas mais difíceis se tornam fáceis 🌲",
-    details: "Uma aventura na natureza que nos conectou ainda mais. Entre as árvores centenárias e o som dos pássaros, encontramos uma cachoeira linda onde fizemos promessas de amor eterno."
+    title: "Nosso 1º Natal Juntos",
+    date: "25 de dezembro, 2024",
+    image: "/src/assets/images/natal.jpg",
+    video: "/natal.mp4",
+    description: "Nosso primeiro Natal juntos, cheio de amor e alegria.",
+    category: "Romântico",
+    romanticComment: "A magia do Natal se torna ainda mais especial ao seu lado 🎄",
+    details: "Neste Natal, tudo foi mágico. A decoração estava linda, a comida deliciosa e o clima de amor no ar era palpável. Trocar presentes foi emocionante, mas o melhor presente foi estar ao seu lado, compartilhando risadas e criando memórias que guardaremos para sempre. Você é o meu maior presente."
   },
   {
     id: 6,
-    title: "Noite de Cinema em Casa",
-    date: "25 de Julho, 2023",
-    image: "/src/assets/images/cinema-casa.jpg",
-    video: "/src/videos/video-especial.mp4",
-    description: "Maratona de filmes românticos com pipoca e muito amor.",
-    category: "Casa",
-    romanticComment: "Qualquer filme fica melhor nos seus braços 🎬",
-    details: "Uma noite aconchegante no sofá, assistindo nossos filmes favoritos. Entre risos, lágrimas e beijos, percebemos que os melhores momentos são os mais simples, quando estamos juntos."
+    title: "Réveillon Inesquecível na praia",
+    date: "31 de dezembro, 2024",
+    image: "/src/assets/images/reveillon.jpg",
+    video: "/reveillon.mp4",
+    description: "Uma noite mágica na praia, celebrando o novo ano juntos.",
+    category: "Romântico",
+    romanticComment: "A contagem regressiva para o novo ano foi ainda mais especial com você ao meu lado 🎆",
+    details: "Uma noite inesquecível na praia, rodeados por amigos e familiares. A contagem regressiva para o novo ano foi emocionante, e quando os fogos de artifício iluminaram o céu, senti que tudo era possível ao seu lado. Brindamos ao amor, à amizade e a todas as aventuras que ainda estão por vir. Você é a minha melhor companhia para todos os momentos."
+  },
+  {
+    id: 7,
+    title: "Nossas aliaças de amor",
+    date: "26 de maio, 2025",
+    image: "/src/assets/images/aliancas.jpg",
+    video: "/aliancas.mp4",
+    description: "Comemorando nosso amor com alianças que simbolizam nossa união.",
+    category: "Romântico",
+    romanticComment: "Cada aliança é um símbolo do nosso amor eterno 💍",
+    details: "Hoje celebramos um marco importante na nossa história: a troca de alianças. Cada uma delas representa o nosso compromisso, amor e a promessa de estarmos juntos para sempre. Foi um momento emocionante, cercado por amigos e familiares que testemunharam nossa união. A partir de hoje, nossas mãos estarão sempre entrelaçadas, simbolizando o amor que nos une."
   }
 ];
