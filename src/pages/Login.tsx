@@ -95,7 +95,7 @@ const Login = () => {
               ) : (
                 <>
                   <Heart className="w-5 h-5" fill="currentColor" />
-                  <span>Entrar no AmorFlix</span>
+                  <span>Entrar no VidocaFlix</span>
                 </>
               )}
             </button>
